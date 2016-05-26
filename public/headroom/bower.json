@@ -1,0 +1,23 @@
+{
+  "name": "headroom.js demo",
+  "homepage": "nope",
+  "authors": [
+    "__hidehalo"
+  ],
+  "description": "demo fo headroom.js",
+  "main": "view/headroom/index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "headroom.js": "https://npmcdn.com/headroom.js/bower.zip"
+  }
+}
