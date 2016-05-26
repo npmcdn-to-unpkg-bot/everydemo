@@ -15,4 +15,8 @@ Route::group(['prefix'=>'/'], function () {
     Route::get('/',['as'=>'index','uses'=>'IndexController@index']);
     Route::get('/headroom.js',['as'=>'headroom','uses'=>'IndexController@headroom']);
     Route::get('/animate.css',['as'=>'animate','uses'=>'IndexController@animate']);
+    Route::get('/three.js',['as'=>'threejs','uses'=>'IndexController@threejs']);
+    Route::get('/video.js',['as'=>'video','uses'=>'IndexController@videojs']);
+    Route::get('/resumable.js',['as'=>'resumable','uses'=>'IndexController@resumable']);
+    Route::get('/canvas.js',['as'=>'canvas','uses'=>'IndexController@canvas']);
 });

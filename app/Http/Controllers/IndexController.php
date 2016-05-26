@@ -19,4 +19,25 @@ class IndexController extends Controller
     {
         return view('animate.index');
     }
+
+    public function threejs()
+    {
+        return view('threejs.index');
+    }
+
+    public function canvas()
+    {
+        return view('canvas.index');
+    }
+
+    public function resumable()
+    {
+        return view('resumable.index');
+    }
+
+    public function videojs()
+    {
+        return view('videojs.index');
+    }
+
 }
