@@ -19,4 +19,5 @@ Route::group(['prefix'=>'/'], function () {
     Route::get('/video.js',['as'=>'video','uses'=>'IndexController@videojs']);
     Route::get('/resumable.js',['as'=>'resumable','uses'=>'IndexController@resumable']);
     Route::get('/canvas.js',['as'=>'canvas','uses'=>'IndexController@canvas']);
+    Route::get('/howler.js',['as'=>'howler','uses'=>'IndexController@howler']);
 });

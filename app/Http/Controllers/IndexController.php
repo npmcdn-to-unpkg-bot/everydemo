@@ -40,4 +40,9 @@ class IndexController extends Controller
         return view('videojs.index');
     }
 
+    public function howler()
+    {
+        return view('howler.index');
+    }
+
 }
