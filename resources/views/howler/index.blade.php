@@ -8,10 +8,8 @@
 <div id='center' style="border:1px solid black;border-radius: 25px;background-color: red;width: 50px;height: 50px;position:absolute;left: 500px;top:300px"></div>
 <body>
 <script>
-    var timer = function (code,mils)
-    {
-        setTimeout(timer(code,mils),mils);
-    }
+    var x, y,z=0;
+    var mils=10000000000;
     var sound = new Howl({
         urls: ['/audios/ninelie.mp3'],
         autoplay: true,
@@ -21,7 +19,8 @@
             console.log('Finished!');
         }
     });
-    timer('sound.pos3d(Math.random(),Math.random(),Math.random());',500);
+    sound.pos3d(x=Math.random()*0.5,y=Math.random()*(-0.5),0.1);
+    console.debug(x,y,z);
 </script>
 </body>
 </html>
