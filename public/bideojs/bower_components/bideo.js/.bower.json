@@ -1,0 +1,14 @@
+{
+  "name": "bideo.js",
+  "homepage": "https://github.com/rishabhp/bideo.js",
+  "_release": "fc83278127",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "fc8327812786c5edaf7b0ca4bea0b94f048ba7f9"
+  },
+  "_source": "https://github.com/rishabhp/bideo.js.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/rishabhp/bideo.js.git",
+  "_direct": true
+}

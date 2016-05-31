@@ -7,7 +7,12 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "sven/artisan-view": "^1.2"
+        "sven/artisan-view": "^1.2",
+        "aferrandini/phpqrcode": "^1.0",
+        "imagine/imagine": "^0.6.3",
+        "chrisboulton/php-resque": "^1.2",
+        "cmgmyr/messenger": "^2.10",
+        "graham-campbell/markdown": "^6.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
