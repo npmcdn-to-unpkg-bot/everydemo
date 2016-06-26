@@ -12,7 +12,8 @@
         "imagine/imagine": "^0.6.3",
         "chrisboulton/php-resque": "^1.2",
         "cmgmyr/messenger": "^2.10",
-        "graham-campbell/markdown": "^6.1"
+        "graham-campbell/markdown": "^6.1",
+        "overtrue/wechat": "^3.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
