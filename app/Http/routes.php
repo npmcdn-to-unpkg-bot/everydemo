@@ -20,4 +20,5 @@ Route::group(['prefix'=>'/'], function () {
     Route::get('/resumable.js',['as'=>'resumable','uses'=>'IndexController@resumable']);
     Route::get('/canvas.js',['as'=>'canvas','uses'=>'IndexController@canvas']);
     Route::get('/howler.js',['as'=>'howler','uses'=>'IndexController@howler']);
+    Route::get('/webvr.js',['as'=>'brush','uses'=>'IndexController@brush']);
 });

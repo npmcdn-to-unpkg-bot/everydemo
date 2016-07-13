@@ -44,5 +44,9 @@ class IndexController extends Controller
     {
         return view('howler.index');
     }
+    public function brush()
+    {
+        return view('webvr.brush');
+    }
 
 }
