@@ -10,7 +10,9 @@ class IndexController extends Controller
 {
     //
     public function index()
-    {}
+    {
+        $route_collection = self::getRouter()->getRoutes();
+    }
     public function headroom()
     {
         return view('headroom.index');
