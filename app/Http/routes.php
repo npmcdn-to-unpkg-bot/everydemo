@@ -23,7 +23,7 @@ Route::group(['prefix'=>'/'], function () {
     Route::get('/webvr.js',['as'=>'brush','uses'=>'IndexController@brush']);
 });
 
-Route::group(['prefix'=>'test/'],function() {
+Route::group(['prefix'=>'test'],function() {
     Route::get('sign',['as'=>'sign','uses'=>'TestController@sign']);
     Route::post('signin',['as'=>'signin','uses'=>'TestController@signin']);
     Route::post('signup',['as'=>'signup','uses'=>'TestController@signup']);
