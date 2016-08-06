@@ -10,7 +10,7 @@
                     <input name="_token" value="{!! csrf_token() !!}" type="hidden">
                     <div class="input-group">
                         <label for='un' class="input-group-label">昵称</label>
-                        <input id='un' name="userName" type="text" class="input-group-field" placeholder="ur kick name" required>
+                        <input id='un' name="name" type="text" class="input-group-field" placeholder="ur kick name" required>
                     </div>
                     <div class="input-group">
                         <label for='em' class="input-group-label">邮箱</label>
@@ -18,7 +18,7 @@
                     </div>
                     <div class="input-group">
                         <label for='up' class="input-group-label">密码</label>
-                        <input id='up' name="passwd" type="password" class="input-group-field" placeholder="one upper alpha plz" required>
+                        <input id='up' name="password" type="password" class="input-group-field" placeholder="one upper alpha plz" required>
                     </div>
                     <button id="submit" class="button">Sign In</button>
                 </form>

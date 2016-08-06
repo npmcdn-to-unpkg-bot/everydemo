@@ -1,2 +1,14 @@
-#####杀鸡也要用宰牛刀系列(Laravel 5用起来就是爽，我才不管多余不多余)
-###记录.学习star的项目
+##记录star的项目
+####开启内建服务器
+php artisan serve --port=8000 &
+####访问
+http://localhost:8000
+####路由表
+- /headroom.js
+- /animate.css
+- /three.js
+- /video.js
+- /resumable.js
+- /canvas.js
+- /howler.js
+- /webvr.js

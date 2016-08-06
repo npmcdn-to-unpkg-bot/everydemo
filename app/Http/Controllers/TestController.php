@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\User;
+use Validator;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
@@ -16,7 +17,7 @@ class TestController extends Controller
         if(!$this->userM) {
             $this->userM = new User();
         }
-        $this->middleware($this->guestMiddleware(), ['except' => 'logout']);
+        // $this->middleware($this->guestMiddleware(), ['except' => 'logout']);
     }
     public function sign()
     {
@@ -45,7 +46,7 @@ class TestController extends Controller
     {
         $all = $request->all();
         if($this->validator($all)){
-            $id = $this->create($all);
+            $id = $this->create($all)->id;
         }
         return $id?$id:0;
     }
